@@ -1,8 +1,6 @@
-com\example\employee\security\UserDetailsImpl.class
 com\example\employee\exception\DuplicatedUserInfoException.class
 com\example\employee\service\EmployeeService.class
 com\example\employee\mapping\EncounterMapper.class
-com\example\employee\security\UserDetailsServiceImpl.class
 com\example\employee\model\Employee.class
 com\example\employee\mapping\UserMapper.class
 com\example\employee\service\impl\EmployeeServiceImpl.class
