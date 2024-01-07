@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="31c034a7-391b-4e9d-892f-bee6c73cf79e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/employee/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/employee/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/employee/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/employee/security/SecurityConfig.java" afterDir="false" />
     </list>
     <list id="40008d40-d240-468f-90e0-5e6dcc3bc570" name="Changes by Noor" comment="Changes by Noor" />
     <option name="SHOW_DIALOG" value="false" />
@@ -277,7 +278,7 @@
       <workItem from="1704626465938" duration="1548000" />
       <workItem from="1704631997887" duration="1332000" />
       <workItem from="1704634171656" duration="606000" />
-      <workItem from="1704640273135" duration="8153000" />
+      <workItem from="1704640273135" duration="9695000" />
     </task>
     <task id="LOCAL−00001" summary="Messages added">
       <option name="closed" value="true" />

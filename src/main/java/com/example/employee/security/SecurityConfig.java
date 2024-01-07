@@ -30,12 +30,11 @@ public class SecurityConfig {
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http.csrf(csrf -> csrf.disable())
             .authorizeHttpRequests((authorize) -> authorize
-                    .requestMatchers("/api/v1/auth/**", "/error").permitAll()
+                    .requestMatchers( "/error").permitAll()
                     .anyRequest().authenticated()
             )
-            .httpBasic(Customizer.withDefaults())
-            .formLogin(Customizer.withDefaults())
-            .cors(Customizer.withDefaults());
+            .cors(Customizer.withDefaults())
+            .httpBasic(Customizer.withDefaults());
         http.oauth2ResourceServer (t-> {
             t.jwt (jwtConfigurer -> jwtConfigurer.jwtAuthenticationConverter(jwtAuthConverter));
         });

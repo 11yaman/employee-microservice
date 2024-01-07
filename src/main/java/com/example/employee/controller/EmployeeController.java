@@ -26,8 +26,8 @@ import org.springframework.web.server.ResponseStatusException;
 import java.util.ArrayList;
 import java.util.List;
 
-@CrossOrigin
 @RestController
+@CrossOrigin
 @PreAuthorize("hasRole('EMPLOYEE')")
 @RequestMapping("/api/v1/employees")
 public class EmployeeController {
