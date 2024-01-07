@@ -7,6 +7,7 @@
     <list default="true" id="31c034a7-391b-4e9d-892f-bee6c73cf79e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <list id="40008d40-d240-468f-90e0-5e6dcc3bc570" name="Changes by Noor" comment="Changes by Noor" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +59,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="workOffline" value="true" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -91,7 +93,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_directory_selection&quot;: &quot;C:/Users/Yaman/GitHub/JournalSystem/backend/src/test/java&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Yaman/GitHub/employee-microservice&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Yaman/GitHub/PatientJournalSystem2&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -275,7 +277,8 @@
       <workItem from="1704623258635" duration="437000" />
       <workItem from="1704626465938" duration="1548000" />
       <workItem from="1704631997887" duration="1332000" />
-      <workItem from="1704634171656" duration="22000" />
+      <workItem from="1704634171656" duration="606000" />
+      <workItem from="1704640273135" duration="3548000" />
     </task>
     <task id="LOCAL−00001" summary="Messages added">
       <option name="closed" value="true" />
