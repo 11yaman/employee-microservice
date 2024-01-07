@@ -28,7 +28,6 @@ import java.util.List;
 
 @RestController
 @CrossOrigin
-@PreAuthorize("hasRole('EMPLOYEE')")
 @RequestMapping("/api/v1/employees")
 public class EmployeeController {
     @Autowired
@@ -49,6 +48,7 @@ public class EmployeeController {
     }
 
     @PostMapping("/create")
+    @PreAuthorize("hasRole('EMPLOYEE')")
     public ResponseEntity<UserDto> createEmployee(@RequestBody CreateEmployeeRequest createEmployeeRequest,
                                                   Authentication authentication) {
         try {
@@ -73,6 +73,7 @@ public class EmployeeController {
     }
 
     @GetMapping("/{id}")
+    @PreAuthorize("hasRole('EMPLOYEE')")
     public ResponseEntity<UserDto> getEmployee(@PathVariable Long id) {
         try {
             Employee employee = employeeService.getEmployeeById(id);
@@ -83,6 +84,7 @@ public class EmployeeController {
     }
 
     @GetMapping("/{id}/future_encounters")
+    @PreAuthorize("hasRole('EMPLOYEE')")
     public ResponseEntity<List<EncounterDto>> getEmployeeFutureEncounters(@PathVariable Long id) {
         try {
             List<Encounter> encounters = employeeService.getFutureEncountersForDoctor(id);
