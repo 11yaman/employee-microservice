@@ -2,12 +2,15 @@ com\example\employee\exception\DuplicatedUserInfoException.class
 com\example\employee\service\EmployeeService.class
 com\example\employee\mapping\EncounterMapper.class
 com\example\employee\model\Employee.class
+com\example\employee\security\JwtAuthConverter$1.class
 com\example\employee\mapping\UserMapper.class
 com\example\employee\service\impl\EmployeeServiceImpl.class
 com\example\employee\dto\response\UserDto.class
 com\example\employee\mapping\StrategyMapper.class
 com\example\employee\repository\EmployeeRepository.class
 com\example\employee\repository\UserRepository.class
+com\example\employee\security\JwtAuthConverter.class
+com\example\employee\security\KeycloakSecurityUtil.class
 com\example\employee\dto\request\CreateEmployeeRequest.class
 com\example\employee\service\UserService.class
 com\example\employee\dto\response\EncounterDto.class

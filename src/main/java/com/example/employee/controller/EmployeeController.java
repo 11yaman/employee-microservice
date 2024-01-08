@@ -29,7 +29,7 @@ import java.util.List;
 @RestController
 @CrossOrigin
 @RequestMapping("/api/v1/employees")
-//@PreAuthorize("hasAuthority('EMPLOYEE')")
+@PreAuthorize("hasAuthority('EMPLOYEE')")
 public class EmployeeController {
     @Autowired
     KeycloakSecurityUtil keycloakUtil;
